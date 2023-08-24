@@ -18,9 +18,9 @@
             <input type="submit" value="Tính tổng">
     </form>
     <?php
-    $num1 = +htmlspecialchars($_REQUEST["num1"]);
-    $num2 = +htmlspecialchars($_REQUEST["num2"]);
-    $num3 = +htmlspecialchars($_REQUEST["num3"]);
+    $num1 = +htmlspecialchars($_REQUEST["num1"]); 
+    $num2 = +htmlspecialchars($_REQUEST["num2"]); 
+    $num3 = +htmlspecialchars($_REQUEST["num3"]); 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (empty($num1)) {
             // echo "Hãy nhập vào số thứ nhất! <br>";
