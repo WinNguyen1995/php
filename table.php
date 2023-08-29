@@ -45,6 +45,8 @@
             echo "<td><button>Xóa</button></td>";   
             echo "</tr>";
         }
+
+        
     echo "</table>";
     ?>
 </body>
