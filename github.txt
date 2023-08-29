@@ -1,0 +1,34 @@
+lấy git về
+git clone đường link
+kiểm tra nhanh
+git branch
+B1: Tạo nhánh mới
+	git checkout -b <branch_name>
+
+	VD git checkout -b reactjs
+
+B2: Làm bài tập
+B3: Kiểm tra trạng thái
+	git status
+B4: Add những file thay đổi trảng thái trước khi comit
+	git add . (thêm tất cả)
+	git status
+
+B5: Thực hiện commit
+	git commit -m "<commit_content>"
+
+B6: Hiện thị danh sách commit
+	git log --oneline -10  (hiện thị 10 commit dưới dạng 1 dòng)
+
+B7: Đẩy code lên github
+	git push <remote> <branch>
+	VD git push origin reactjs (origin tên remote)
+
+. lấy code về trên github
+- lấy code trên main về
+git checkout main
+git pull origin main (trên đúng nhánh thì chỉ cần git pull)
+
+sau đó tạo nhánh mới
+
+Chuyen nhanh: git checkout <ten-nhanh-can-sudung>
